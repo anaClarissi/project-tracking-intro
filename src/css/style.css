@@ -32,3 +32,76 @@ body {
     font-family: var(--font-primary);
     font-size: 1.125rem;
 }
+
+
+
+/*===========================*/
+/*          HEADER           */
+/*===========================*/
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header .container {
+    padding: 1.5rem;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.toggler-icon::before {
+    content: url('../images/icon-hamburger.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+#header:has(#navbarNav.show) .toggler-icon::before {
+    content: url('../images/icon-close.svg');
+}
+
+#navbarNav{
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 3px 15px 3px rgba(0, 0, 0, 0.192);
+    border-radius: 0.25rem;
+}
+
+.navbar-nav {
+    width: 100%;
+    padding: 1rem;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link {
+    font-family: var(--font-secondary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--blue-950);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-link.login {
+    border-top: 2px solid var(--blue-100);
+    margin-top: 0.75rem;
+    padding-top: 1rem;
+    color: #aaa;
+}
