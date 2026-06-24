@@ -1,0 +1,34 @@
+/*===========================*/
+/*         VARIABLES         */
+/*===========================*/
+
+:root {
+
+    --red-400: #ff5c5c;
+
+    --blue-950: #242942;
+    --blue-100: #eef3f6;
+
+    --font-primary: 'Barlow', Arial, sans-serif;
+    --font-secondary: 'Barlow Condensed', Helvetica, sans-serif;
+
+}
+
+/*===========================*/
+/*            BODY           */
+/*===========================*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-primary);
+    font-size: 1.125rem;
+}
