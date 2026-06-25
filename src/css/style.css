@@ -198,10 +198,56 @@ body {
     background-color: var(--red-400);
 }
 
+
+
 @media (max-width: 360px) {
     
     .btn {
         padding: 0.5rem;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+    
+    /*===========================*/
+    /*          HEADER           */
+    /*===========================*/
+
+    #navbarNav {
+        position: static;
+        justify-content: flex-end;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .navbar-nav {
+        width: auto;
+        gap: 3rem;
+    }
+
+    .nav-link.login {
+        position: relative;
+        border-top: none;
+        margin-top: 0;
+        margin-left: 3rem;
+        padding-top: 0.5rem;
+    }
+
+    .nav-link.login::before {
+        --size: 10px;
+        position: absolute;
+        top: 50%;
+        left: calc(-3rem - var(--size));
+        transform: translateY(-50%);
+        content: "";
+        width: var(--size);
+        height: var(--size);
+        border-radius: 50%;
+        background-color: var(--grey-200);
+        cursor: auto;
     }
 
 }
