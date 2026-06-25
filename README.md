@@ -1,106 +1,124 @@
-# Frontend Mentor - Project tracking intro component
+<div align="center">
 
-![Design preview for the Project tracking intro component coding challenge](preview.jpg)
+# 📊 Project Tracking Intro Component
 
-## Welcome! 👋
+### Frontend Mentor Challenge Solution
 
-Thanks for checking out this front-end coding challenge.
+## 🚀 [Ver Site ao Vivo →](https://anaclarissi.github.io/project-tracking-intro/)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+<br>
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+[![Repository](https://img.shields.io/badge/📁_Repository-GitHub-242942?style=for-the-badge&logo=github)](https://github.com/anaClarissi/project-tracking-intro)
+[![Challenge](https://img.shields.io/badge/🎯_Challenge-Frontend_Mentor-3e54a3?style=for-the-badge)](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e)
+[![Profile](https://img.shields.io/badge/👤_My_Profile-Frontend_Mentor-f0c234?style=for-the-badge)](https://www.frontendmentor.io/profile/anaClarissi)
 
-## The challenge
+</div>
 
-Your challenge is to build out this intro component and get it looking as close to the design as possible.
+---
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## 📸 Preview
 
-Your users should be able to:
+### 🖥️ Desktop
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Create the background shape using code
+![Desktop Preview](./src/design/desktop-design.jpg)
 
-### Want some support on the challenge? 
+### 📱 Mobile
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+![Mobile Preview](./src/design/mobile-design.jpg)
 
-## Where to find everything
+> *Imagens de preview geradas a partir do design oficial do desafio.*
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+---
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+## 🎯 Sobre o Projeto
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Este projeto é uma solução para o desafio **Project Tracking Intro Component** da plataforma [Frontend Mentor](https://www.frontendmentor.io). O objetivo foi reproduzir fielmente um componente de introdução para uma aplicação de rastreamento de projetos, com foco em layout responsivo, navegação acessível e fidelidade ao design proposto.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+> ⚠️ **Este projeto não possui fins lucrativos.** Foi desenvolvido exclusivamente para fins de aprendizado e prática de habilidades em desenvolvimento front-end.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+---
 
-## Using AI coding assistants
+## 🔗 Links
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+| Recurso | URL |
+|---|---|
+| 🌐 Site ao vivo | [anaclarissi.github.io/project-tracking-intro](https://anaclarissi.github.io/project-tracking-intro/) |
+| 📁 Repositório | [github.com/anaClarissi/project-tracking-intro](https://github.com/anaClarissi/project-tracking-intro) |
+| 🎯 Desafio original | [Frontend Mentor – Project Tracking Intro](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e) |
+| 👤 Meu perfil | [frontendmentor.io/profile/anaClarissi](https://www.frontendmentor.io/profile/anaClarissi) |
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+---
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+## 🛠️ Tecnologias Utilizadas
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+- **HTML5** — Estrutura semântica e acessível
+- **CSS3** — Estilização personalizada com variáveis CSS (custom properties)
+- **Bootstrap 5.3** — Grid responsivo e componente de navbar com menu hamburguer
+- **Google Fonts** — Fontes *Barlow* e *Barlow Condensed*
 
-## Building your project
+---
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+## 📚 Aprendizados
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Esse desafio foi uma ótima oportunidade para consolidar e aprofundar conhecimentos importantes:
 
-## Deploying your project
+### 🎨 CSS Avançado
+- Uso de **variáveis CSS** (`--red-400`, `--blue-950`, etc.) para manter consistência visual e facilitar manutenção
+- Posicionamento com `position: absolute` e `z-index` para criar o efeito de fundo recortado (`border-radius: 0 0 0 4rem`)
+- Uso do seletor `:has()` para alterar o ícone do menu (hamburguer → fechar) de forma puramente declarativa em CSS
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### 📐 Layout Responsivo
+- Construção de layout mobile-first com múltiplos breakpoints (`960px`, `1024px`, `1280px`, `1920px`)
+- Transição de layout de coluna única (mobile) para lado a lado com `flex-direction: row-reverse` (desktop)
+- Fundo decorativo reposicionado e redimensionado entre breakpoints sem duplicar elementos HTML
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### 🧩 Bootstrap na Prática
+- Integração do **Navbar collapse** do Bootstrap com customizações visuais profundas via CSS próprio
+- Override de estilos padrão do Bootstrap sem conflitos, respeitando a especificidade dos seletores
+- Uso do `data-bs-toggle="collapse"` para o menu hamburguer responsivo
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+### ♿ Acessibilidade
+- Uso de `aria-hidden="true"` em elementos puramente decorativos
+- `aria-label` e `aria-expanded` no botão de toggle da navbar
+- Alternância de ícone do menu acessível via CSS com `:has()` e `::before`
 
-## Create a custom `README.md`
+---
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+## 📁 Estrutura do Projeto
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+```
+project-tracking-intro/
+├── index.html
+└── src/
+    ├── css/
+    │   └── style.css
+    └── images/
+        ├── favicon-32x32.png
+        ├── logo.svg
+        ├── illustration-devices.svg
+        ├── icon-hamburger.svg
+        └── icon-close.svg
+```
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+---
 
-## Submitting your solution
+## 🚀 Como Rodar Localmente
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+```bash
+# Clone o repositório
+git clone https://github.com/anaClarissi/project-tracking-intro.git
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+# Acesse a pasta
+cd project-tracking-intro
 
-## Sharing your solution
+# Abra o arquivo index.html no seu navegador
+# Ou use a extensão Live Server no VS Code
+```
 
-There are multiple places you can share your solution:
+---
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+<div align="center">
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+Desenvolvido com 💙 por **Ana Clarissi** como solução de desafio [Frontend Mentor](https://www.frontendmentor.io)
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+</div>
