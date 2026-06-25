@@ -130,6 +130,10 @@ body {
     padding: 8rem 0 4rem 2rem;
 }
 
+.main-background {
+    display: none;
+}
+
 .img-background {
     position: absolute;
     top: 0;
@@ -210,7 +214,7 @@ body {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     
     /*===========================*/
     /*          HEADER           */
@@ -250,4 +254,117 @@ body {
         cursor: auto;
     }
 
+
+
+    /*===========================*/
+    /*            MAIN           */
+    /*===========================*/
+
+    #main {
+        min-height: 100vh;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main div {
+        flex: 1;
+
+    }
+
+    .img-content {
+        padding: 0;
+    }
+
+    .img-background {
+        display: none;
+    }
+
+    .img-illustration {
+        margin-top: 5rem;
+    }
+
+    .main-background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        min-height: 50vh;
+        border-radius: 0 0 0 7rem;
+        background-color: var(--blue-100);
+        display: flex;
+        z-index: -1;
+    }
+
+    #main .container {
+        padding-left: 6rem;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    /*===========================*/
+    /*            MAIN           */
+    /*===========================*/
+
+    #main .container {
+        padding-left: 3.25rem;
+    }
+
+    
+}
+
+
+@media (min-width: 1280px) {
+
+    /*===========================*/
+    /*            MAIN           */
+    /*===========================*/
+
+    #main .container {
+        gap: 3rem;
+        padding-left: 6rem;
+    }
+
+    .img-illustration {
+        min-height: 25rem;
+        background-position: left bottom;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        max-width: 25rem;
+    }
+
+    .content span, .content p, .btn {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        padding: 0.75rem 2rem;
+    }
+    
+}
+
+
+@media (min-width: 1920px) {
+
+    /*===========================*/
+    /*            MAIN           */
+    /*===========================*/
+
+    #main .container {
+        padding-left: 20rem;
+    }
+
+    .img-illustration {
+        min-height: 30rem;
+    }
+    
 }
